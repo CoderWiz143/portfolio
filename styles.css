@@ -1,0 +1,236 @@
+*{
+      scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #0a1f2f;
+  
+}
+
+.navbar-brand img {
+    max-height: 30px;
+}
+
+.nav-link {
+    font-size: 2rem;
+}
+
+.navbar-dark.bg-darkblue {
+    background-color: #0a1f2f !important;
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #0a1f2f;
+}
+
+
+#button-nav {
+    background-color: #0437dd;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px 20px;
+}
+
+#button-nav:hover {
+    background-color: #325ef1;
+    transform: scale(1.05);
+
+}
+
+.col-6 img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wordart-name {
+    font-family: 'Arial'; 
+    font-size: 40px;
+    font-weight: bold;
+    color: #0a1f2f;
+    text-shadow:
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white; 
+    letter-spacing: 2px; 
+    padding: 20px;
+}
+
+
+/* Card Styling */
+.card {
+     background-color: #1f1f1f; /* Dark background */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 320px; /* Fixed height */
+    max-height: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure button is at the bottom */
+    position: relative;
+}
+.card:hover{
+    border: 0.5px solid silver;
+}
+
+.card .card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+   flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 6em;
+    white-space: normal;
+}
+
+.card .btn-link {
+    position: absolute;
+    bottom: 20px; /* Fixed distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+    color: #3498db;
+    font-weight: bold;
+}
+
+.card .btn-link:hover {
+    text-decoration: none;
+    color: #1d6fa5;
+}
+
+
+h2 {
+    color: #fff;
+}
+.col-md-6 p,h1 {
+    color: white;
+}
+
+#skills {
+    padding: 50px 0;
+}
+
+.skill-box {
+    background-color: #1f1f1f; /* Dark box background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for a modern look */
+}
+
+h5.text-white {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .progress-bar {
+        font-size: 1rem;
+    }
+}
+
+footer {
+margin-top: 60px;
+    background-color: #0a1f2f; /* Footer background color */
+}
+
+.social-icons a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #3498db; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    margin: 0;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.list-unstyled a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.list-unstyled a:hover {
+    color: #3498db;
+}
+
+hr {
+    border-top: 1px solid #ffffff; 
+}
+
+h5.footer-heading {
+    color: #ffffff; 
+    font-size: 1.2rem; 
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif; 
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+    }
+}
+
+
+.form-container {
+    max-width: 700px; /* Adjust the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    background-color: #f9f9f9; /* Background color for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+iframe {
+    width: 100%; /* Make the iframe responsive */
+    border: none; /* Remove default border */
+}
